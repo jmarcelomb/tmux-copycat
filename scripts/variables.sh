@@ -24,3 +24,6 @@ copycat_hash_search_option="@copycat_hash_search"
 
 default_ip_search_key="M-i"
 copycat_ip_search_option="@copycat_ip_search"
+
+default_opencode_search_key="M-o"
+copycat_opencode_search_option="@copycat_opencode_search"

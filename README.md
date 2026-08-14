@@ -43,6 +43,8 @@ Searches are case insensitive.<br/>
 - `prefix + ctrl-u` - *u*rl search (http, ftp and git urls)
 - `prefix + ctrl-d` - number search (mnemonic d, as digit)
 - `prefix + alt-i` - *i*p address search
+- `prefix + alt-o` - *o*pencode session id search (matches `ses_...`, e.g. from
+  `opencode -s ses_...` continue prompts)
 
 These start "copycat mode" and jump to first match.
 
