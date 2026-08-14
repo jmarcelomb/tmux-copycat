@@ -21,7 +21,8 @@ Options for predefined searches:
 - `@copycat_digit_search` (default `C-d`) digit search
 - `@copycat_hash_search` (default `M-h`) SHA-1 hash search
 - `@copycat_ip_search` (default `M-i`) IP address search
-- `@copycat_opencode_search` (default `M-o`) opencode session id search
+- `@copycat_opencode_search` (default `M-o`) opencode session resume command
+  search (`opencode -s ses_...`)
 
 Example: to remap default file search to use `C-t` put
 `set -g @copycat_file_search 'C-t'` in `.tmux.conf`.

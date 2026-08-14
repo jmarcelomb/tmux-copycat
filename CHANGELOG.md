@@ -1,8 +1,9 @@
 # Changelog
 
 ### master
-- add stored search for opencode session ids (`ses_...`), bound to `alt-o` by
-  default (`@copycat_opencode_search`)
+- add stored search for opencode session resume commands
+  (`opencode -s ses_...`), bound to `alt-o` by default
+  (`@copycat_opencode_search`)
 
 ### v3.0.0, Nov 01, 2017
 - if installed use `gawk` instead of `awk` (@metcalfc)

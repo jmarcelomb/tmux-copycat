@@ -31,7 +31,7 @@ set_default_stored_searches() {
 		tmux set-option -g "${COPYCAT_VAR_PREFIX}_${ip_search}" "[[:digit:]]{1,3}\.[[:digit:]]{1,3}\.[[:digit:]]{1,3}\.[[:digit:]]{1,3}"
 	fi
 	if stored_search_not_defined "$opencode_search"; then
-		tmux set-option -g "${COPYCAT_VAR_PREFIX}_${opencode_search}" "ses_[[:alnum:]]+"
+		tmux set-option -g "${COPYCAT_VAR_PREFIX}_${opencode_search}" "opencode[[:space:]]+-s[[:space:]]+ses_[[:alnum:]]+"
 	fi
 }
 
